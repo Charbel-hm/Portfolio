@@ -1,0 +1,65 @@
+{
+  "personal": {
+    "name": "Charbel Hajj Moussa",
+    "title": "Cybersecurity Professional & Full-Stack Developer",
+    "bio": "I bridge the gap between robust application development and impenetrable security. Specializing in the MERN stack and SOC analysis, I build experiences that are as secure as they are beautiful.",
+    "email": "charbel.hmoussa03@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/charbel-hajj-moussa-722471244",
+    "github": "https://github.com/Charbel-hm"
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master’s Degree in Informatics",
+      "school": "Lebanese University, Faculty of Sciences (Branch II)",
+      "period": "Recent",
+      "focus": "Advanced Computer Science, Systems, and Software Engineering."
+    },
+    {
+      "id": 2,
+      "degree": "Bachelor’s Degree in Computer Science",
+      "school": "Lebanese University",
+      "period": "Previous",
+      "focus": "Core Computer Science and Programming methodologies."
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "role": "Cybersecurity - SOC Analyst Intern",
+      "company": "POTECH",
+      "period": "Completed April 2026",
+      "description": "6-month tenure focusing on threat monitoring, security operations, and incident response within a highly collaborative team environment."
+    }
+  ],
+  "skills": {
+    "development": [
+      "MongoDB",
+      "React",
+      "Node.js",
+      "Full-Stack Architecture"
+    ],
+    "cybersecurity": [
+      "SOC Analysis",
+      "Network Security (Cisco)",
+      "Ethical Hacking (ETH101)",
+      "OWASP Top 10",
+      "TryHackMe"
+    ],
+    "devops": [
+      "Vercel",
+      "Render",
+      "GitHub",
+      "MongoDB Atlas"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Wanderlist",
+      "description": "A full-stack web application built with the MERN stack, featuring a cloud-hosted database and modern deployment workflows.",
+      "tags": ["React", "Node.js", "MongoDB Atlas", "Vercel"],
+      "link": "https://github.com/Charbel-hm/wanderlist"
+    }
+  ]
+}
