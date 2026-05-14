@@ -60,6 +60,13 @@
       "description": "A full-stack web application built with the MERN stack, featuring a cloud-hosted database and modern deployment workflows.",
       "tags": ["React", "Node.js", "MongoDB Atlas", "Vercel"],
       "link": "https://github.com/Charbel-hm/wanderlist"
+    },
+    {
+      "id": 2,
+      "title": "KANEKI Portfolio",
+      "description": "My personal portfolio website, designed from scratch with a custom dark aesthetic, glassmorphism UI, and built using React and Vite.",
+      "tags": ["React", "Vite", "CSS", "UI/UX"],
+      "link": "https://github.com/Charbel-hm/Portfolio"
     }
   ]
 }

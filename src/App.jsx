@@ -20,7 +20,8 @@ function App() {
         <Projects projects={portfolioData.projects} />
       </main>
       <footer className="footer text-secondary">
-        <p>© {new Date().getFullYear()} {portfolioData.personal.name}. Secure & Scalable.</p>
+        <p>Designed & Built by {portfolioData.personal.name}</p>
+        <p style={{ fontSize: '0.9rem', marginTop: '0.5rem', opacity: 0.7 }}>© {new Date().getFullYear()} All Rights Reserved</p>
       </footer>
     </div>
   );
