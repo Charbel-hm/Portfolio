@@ -16,8 +16,15 @@ export default function Projects({ projects }) {
                 ))}
               </div>
             </div>
-            <div className="project-actions">
-              <a href={project.link} className="btn-link">View Project →</a>
+            <div className="project-actions" style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '1rem' }}>
+              {project.demo && (
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn" style={{ padding: '0.5rem 1.5rem', fontSize: '1rem' }}>
+                  Visit Website
+                </a>
+              )}
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn-link">
+                View Source →
+              </a>
             </div>
           </div>
         ))}

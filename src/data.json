@@ -34,13 +34,14 @@
   ],
   "skills": {
     "development": [
-      "MongoDB",
       "React",
       "Node.js",
+      "MongoDB",
       "Full-Stack Architecture"
     ],
     "cybersecurity": [
       "SOC Analysis",
+      "CTF competion",
       "Network Security (Cisco)",
       "Ethical Hacking (ETH101)",
       "OWASP Top 10",
@@ -49,6 +50,7 @@
     "devops": [
       "Vercel",
       "Render",
+      "Netlify",
       "GitHub",
       "MongoDB Atlas"
     ]
@@ -63,7 +65,7 @@
     },
     {
       "id": 2,
-      "title": "KANEKI Portfolio",
+      "title": "Personal Portfolio",
       "description": "My personal portfolio website, designed from scratch with a custom dark aesthetic, glassmorphism UI, and built using React and Vite.",
       "tags": ["React", "Vite", "CSS", "UI/UX"],
       "link": "https://github.com/Charbel-hm/Portfolio"
