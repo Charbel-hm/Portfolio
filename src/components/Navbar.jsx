@@ -3,7 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo"><span className="text-gradient">KANEKI</span></h2>
+      <h2 className="logo"><span className="text-gradient">CHARBEL HAJJ MOUSSA</span></h2>
       <div className="nav-links">
         <a href="#about">About</a>
         <a href="#education">Education</a>
