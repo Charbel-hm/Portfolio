@@ -650,3 +650,63 @@ ul {
   from { transform: scale(0.95); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
+/* Scroll Reveal Triggers */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Footer Socials */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icon-link {
+  color: var(--text-secondary);
+  transition: color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon-link:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px);
+  filter: drop-shadow(0 0 6px rgba(255, 42, 42, 0.6));
+}
+
+/* Section Title Cyber Glitch Hover Effect */
+.section-title {
+  position: relative;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  display: inline-block;
+  cursor: default;
+}
+
+.section-title:hover {
+  animation: titleCyberGlitch 0.3s steps(2) infinite;
+  color: var(--text-primary);
+}
+
+@keyframes titleCyberGlitch {
+  0% {
+    text-shadow: 2px -1.5px 0 #ff2a2a, -1.5px 2px 0 #00f0ff;
+  }
+  50% {
+    text-shadow: -2px 1.5px 0 #ff2a2a, 1.5px -2px 0 #00f0ff;
+  }
+  100% {
+    text-shadow: 2px 1.5px 0 #ff2a2a, -1.5px -2px 0 #00f0ff;
+  }
+}
